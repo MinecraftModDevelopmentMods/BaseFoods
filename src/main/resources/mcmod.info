@@ -1,0 +1,16 @@
+[
+{
+  "modid": "basefoods",
+  "name": "Base Foods",
+  "description": "Base Foods",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "http://minecraft.curseforge.com/projects/base-foods",
+  "updateUrl": "",
+  "authorList": ["cyb3rkat"],
+  "credits": "Zaweri, Cazsius for art",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
