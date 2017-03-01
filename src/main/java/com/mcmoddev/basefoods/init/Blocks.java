@@ -1,5 +1,7 @@
 package com.mcmoddev.basefoods.init;
 
+import net.minecraft.block.Block;
+
 /**
  * This class initializes all blocks in Base Foods.
  *
@@ -10,6 +12,7 @@ public class Blocks {
 
 	private static boolean initDone = false;
 
+	public static Block CORN;
 	/**
 	 *
 	 */
