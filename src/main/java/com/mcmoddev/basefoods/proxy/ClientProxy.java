@@ -1,5 +1,6 @@
 package com.mcmoddev.basefoods.proxy;
 
+
 import com.mcmoddev.basefoods.BaseFoods;
 import com.mcmoddev.basefoods.init.*;
 
@@ -28,7 +29,11 @@ public class ClientProxy extends CommonProxy {
 	@Override
 	public void preInit(FMLPreInitializationEvent event) {
 		super.preInit(event);
-/*
+
+		Blocks.initModels();
+		ItemsRender.registerItemRenderer();
+		
+		/*
 		for (final String name : Fluids.getFluidBlockRegistry().keySet()) {
 			final Block block = Fluids.getFluidBlockByName(name);
 			final Item item = Item.getItemFromBlock(block);
